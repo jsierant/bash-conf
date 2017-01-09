@@ -1,5 +1,5 @@
 
-export EDITOR=emacs
+export EDITOR=kate
 export TERM=konsole
 export BROWSER="white_gtk firefox"
 
