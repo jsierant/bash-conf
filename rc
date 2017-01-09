@@ -1,0 +1,24 @@
+
+BASH_CONF_DIR=~/.bash
+
+source $BASH_CONF_DIR/colors
+source $BASH_CONF_DIR/prompt
+source $BASH_CONF_DIR/wine
+source $BASH_CONF_DIR/aliasses
+source $BASH_CONF_DIR/default_apps
+
+eval $(dircolors -b $BASH_CONF_DIR/dircolors)
+
+export PATH=$HOME/.local/bin/:$HOME/.config/awesome/scripts:$PATH
+
+source /usr/share/bash-completion/bash_completion
+
+export GIT_PS1_SHOWDIRTYSTATE
+export GIT_PS1_SHOWSTASHSTATE
+export GIT_PS1_SHOWUNTRACKEDFILES
+export GIT_PS1_SHOWUPSTREAM
+source /usr/share/git/completion/git-prompt.sh
+
+if [[ "$TERM" -eq "termite" ]]; then
+export TERM=xterm-256color
+fi

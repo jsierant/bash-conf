@@ -1,0 +1,4 @@
+
+export WINEARCH=win32 
+export WINEPREFIX=~/.win32
+

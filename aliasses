@@ -1,0 +1,13 @@
+
+alias ls='ls --color=auto -h'
+alias mkdir='mkdir -p -v'
+alias df='df -h'
+alias grep='grep --color=auto'
+alias e='exit'
+alias ..='cd ..'
+alias ...='cd ../..'
+
+alias deusex='cd $HOME/.win32/drive_c/Program\ Files/Deus\ Ex\ Human\ Revolution.\ Directors\ Cut/ && wine DXHRDC.exe'
+
+alias mc='TERM=konsole-256color mc'
+
