@@ -7,7 +7,4 @@ alias e='exit'
 alias ..='cd ..'
 alias ...='cd ../..'
 
-alias deusex='cd $HOME/.win32/drive_c/Program\ Files/Deus\ Ex\ Human\ Revolution.\ Directors\ Cut/ && wine DXHRDC.exe'
-
 alias mc='TERM=konsole-256color mc'
-
